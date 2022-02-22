@@ -1,0 +1,755 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aesop at Amsterdam, balancing the Aesops at Tunbridg, Bathe, Whitehal, &amp;c. by Ludlow Redivivus.</title>
+            <author>Ludlow Redivivus.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1698</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 25 KB of XML-encoded text transcribed from 19 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A26527</idno>
+            <idno type="STC">Wing A734</idno>
+            <idno type="STC">ESTC R19297</idno>
+            <idno type="EEBO-CITATION">12672347</idno>
+            <idno type="OCLC">ocm 12672347</idno>
+            <idno type="VID">65502</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A26527)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 65502)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 679:17)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Aesop at Amsterdam, balancing the Aesops at Tunbridg, Bathe, Whitehal, &amp;c. by Ludlow Redivivus.</title>
+                  <author>Ludlow Redivivus.</author>
+               </titleStmt>
+               <extent>[6], 9-31 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Myn Heer Vanden Flounder ...,</publisher>
+                  <pubPlace>Amsterdam :</pubPlace>
+                  <date>1698.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Eleven fables in verse ridiculing monarchial government. Cf. BM.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Monarchy --  Anecdotes</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:65502:1"/>
+            <pb facs="tcp:65502:1"/>
+            <p>AESOP AT AMSTERDAM, Balancing the AESOPS AT <hi>Tunbridg, Bathe, Whitehal,</hi> &amp;c.</p>
+            <p>BY LUDLOW REDIVIVUS.</p>
+            <p>AMSTERDAM, Printed for <hi>Myn Heer Vanden Flounder,</hi> Boekverkooper, 1698.</p>
+            <p>And Sold by the Bookſellers of <hi>London</hi> and <hi>Weſtminſter.</hi>
+            </p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:65502:2"/>
+            <pb facs="tcp:65502:2"/>
+            <head>Epiſtle Dedicatory, TO <hi>Old</hi> AESOP <hi>at</hi> Whitehal, <hi>&amp;c.</hi>
+            </head>
+            <opener>
+               <salute>FATHER,</salute>
+            </opener>
+            <p>WHERE the Devil have you been all this while? It is now ever ſince the fifty fourth <hi>Olympiad</hi> you dy'd at <hi>Delphos,</hi> and to ariſe again at <hi>White<g ref="char:EOLhyphen"/>hall</hi> is very remarkable. I am now apt to believe the Doctrin of <hi>Tranſmigra<g ref="char:EOLhyphen"/>tion,</hi> and that your Soul having paſt the Habitations of the Bodies of the Horſe, the Aſs, and other Beaſts, you'r now informing the Body of a
+<pb facs="tcp:65502:3"/>Courtier. Good Dad! don't come too near me, you ſtink moſt damnably of Sulphur, I'm almoſt ſuffocated. You have been lamentably paid off in t'other Country; your Clothes are horridly be<g ref="char:EOLhyphen"/>dawb'd with liquid Bitumen, Links, Flambeaux and Card-matches; you make a very indifferent Figure indeed Father. What Country you have been in I can't tell, but by your new Fables I find you have liv'd under a Monar<g ref="char:EOLhyphen"/>chical Government, and are mightily in love with it, as are my two elder Bro<g ref="char:EOLhyphen"/>thers of <hi>Tunbridg</hi> and <hi>Bathe;</hi> but your youngeſt Son, my Right Worſhip<g ref="char:EOLhyphen"/>ful ſelf, begs your Pardon if he don't jump with you and the reſt of his Bre<g ref="char:EOLhyphen"/>thren in their notions of Government. You can't tell, Father, what a lament<g ref="char:EOLhyphen"/>able ſpot of work you have made
+<pb facs="tcp:65502:3"/>with the Fables you wrote the firſt time you liv'd; the ſower <hi>Pedagogues</hi> have made the blind Cheeks of many a Boy as raw as a piece of Beef, be<g ref="char:EOLhyphen"/>cauſe they could not underſtand 'em; nay I have been perſecuted my ſelf upon the ſame account. Beſides, <hi>Sir,</hi> your Fables have been the foundati<g ref="char:EOLhyphen"/>on of abundance of Lies; your Book ſerves inſtead of a Charter to the Mythologiſts of all Ages; you ſtand in competition even with the Devil himſelf, which ſhall be the reputed Father of Liars. And one would think after you had ſlept ſo many years, your Conſulatation with your Pillow might have afforded you better Thoughts. 'Tis pity, Father, you and I ſhould fall out after ſo long abſence; but you ought to allow us that live upon the
+<pb facs="tcp:65502:4"/>ſurface of the Terreſtrial Globe, to ſee farther than you, who have been ſo many Years embowel'd in the Ca<g ref="char:EOLhyphen"/>verns of the Earth: Indeed, Father, I would adviſe you to return home again, unleſs you had brought better Notions with you from t'other Coun<g ref="char:EOLhyphen"/>try; for thoſe poſſeſt with your No<g ref="char:EOLhyphen"/>tions here, we eſteem either Stupid or Mad. Now being in this place, Father, and breathing in a free Air, I can talk of nothing but Freedom, Liberty and Property. I hope, if it does offend the Aſſertors of Ty<g ref="char:EOLhyphen"/>ranny, they'l conſider I am in a com<g ref="char:EOLhyphen"/>mon Aſylum, and out of their reach.</p>
+            <closer>
+               <dateline>
+                  <hi>AMSTERDAM.</hi>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="9" facs="tcp:65502:4"/>
+            <head>AESOP AT AMSTERDAM.</head>
+            <div n="1" type="poetic_fable">
+               <head>FAB. I. <hi>The Summons.</hi>
+               </head>
+               <l>THE mighty <hi>Puſs,</hi> not long ſince rul'd the State,</l>
+               <l>Beneath a loneſom Furzbuſh purring ſat;</l>
+               <l>Stroak'd her long Smellers, and rejoic'd to ſee</l>
+               <l>Her awful Picture in her Progeny:</l>
+               <l>Mean while her Kitlings dance before her face,</l>
+               <l>And toſs, like trembling Mice, the Roots of Graſs.</l>
+               <pb n="10" facs="tcp:65502:5"/>
+               <l>Not one amongſt 'em but a Claw dos wear,</l>
+               <l>Fit a Monarchic Tyrant Rat to tear.</l>
+               <l>The Good old Cauſe inform'd the Mother's Breaſt,</l>
+               <l>Darts through their Eyes, is by their mein expreſt.</l>
+               <l>Such, ſuch the antient Race of Heroes were,</l>
+               <l>Who did their Rights before their Lives prefer.</l>
+               <l>She calls one to her, of the eldeſt brood;</l>
+               <l>Doſt know, ſaid ſhe, how drown'd in native Blood</l>
+               <l>My Country lies? how the wild Boars invade</l>
+               <l>The Land, and deſart have my Country laid?</l>
+               <l>'Tis true, I once did eaſe 'em of their Pain;</l>
+               <l>But they, like Fools, embrac'd again the Chain;</l>
+               <l>Wear thoſe dull Fetters I ſo kindly broke,</l>
+               <l>And halt, like Slaves, beneath the ſervile Yoke.</l>
+               <l>Once more I'll try, if my Advice may prove</l>
+               <l>Succeſsful, once exert my antient Love;</l>
+               <l>Summon the Slaves to meet at <hi>Whitehal</hi> Gate,</l>
+               <l>Beneath the Scaffold where I whilom ſate,</l>
+               <pb n="11" facs="tcp:65502:5"/>
+               <l>And puniſh'd Tyranny, the worſt of Crimes;</l>
+               <l>A juſt Example unto future Times.</l>
+               <l>Young <hi>Puſs</hi> the Meſſage takes, and bids fair Warning</l>
+               <l>To all the Slaves t'appear on the next morning.</l>
+            </div>
+            <div n="2" type="poetic_fable">
+               <head>FAB. II. <hi>The Interview.</hi>
+               </head>
+               <lg>
+                  <l>THE Morning come, the Slaves await,</l>
+                  <l>And flock like Bees 'bout <hi>Whitehal</hi> Gate.</l>
+                  <l>Some yoak'd, like Country Hogs appear;</l>
+                  <l>Others confounded Fetters wear,</l>
+                  <l>And ſome moſt horrid Burdens bear.</l>
+                  <l>Thus loaded, thus enſlav'd, oppreſt;</l>
+                  <l>Nature, 'tis ſtrange, don't call for reſt:</l>
+                  <pb n="12" facs="tcp:65502:6"/>
+                  <l>Tho Legs are gall'd, and Shoulders ſore,</l>
+                  <l>The bulky Slaves ſtill crave for more:</l>
+                  <l>And not an Ideot of the Town</l>
+                  <l>Has ſenſe to lay his Burden down.</l>
+                  <l>Strait <hi>Puſs</hi> in Majeſty appears,</l>
+                  <l>Mounting the Scaffold, pricks her Ears,</l>
+                  <l>Shakes her Majeſtick Head, aloud</l>
+                  <l>She thus beſpoke the num'rous Crowd.</l>
+               </lg>
+               <lg>
+                  <l>I have deſerted long the nauſeous Town,</l>
+                  <l>Mourning my Country's Ruin, and my own</l>
+                  <l>Expos'd to Tyranny, whilſt Beaſts of prey</l>
+                  <l>Ravage my Fields, and ſteal my Lambs away.</l>
+                  <l>My Free-born Subjects now are forc'd to bear</l>
+                  <l>Loads, which more fit for backs of Camels are;</l>
+                  <l>You well deſerve the Fetters you do wear.</l>
+                  <pb n="13" facs="tcp:65502:6"/>
+                  <l>You under heavy iron Shackles pine,</l>
+                  <l>Whoſe Fathers did in glorious Armor ſhine,</l>
+                  <l>Thro' fields of Blood to Freedom cut their way,</l>
+                  <l>And taught the proudeſt Tyrants to obey;</l>
+                  <l>By me ſupported, potent Tyrants fell</l>
+                  <l>A Sacrifice to their juſt Cauſe and Hell;</l>
+                  <l>No more, no more their ſacred Lineage ſtain,</l>
+                  <l>No more their names in your curſt Race profane.</l>
+                  <l>Let not their Off-ſpring ſuch Alliance have,</l>
+                  <l>Shackles were ne're the Trophies of the Brave;</l>
+                  <l>They could wide Conqueſts, and juſt Honors boaſt,</l>
+                  <l>But you, dull Slaves! have all your Freedom loſt.</l>
+                  <l>Where 'ere a Tyrant rais'd his impious Head,</l>
+                  <l>Strait their bold Hands ſtrook the damn'd Monſter dead.</l>
+                  <l>Had you a ſpark of antient Honor left,</l>
+                  <l>You ſhould not long be of my Aid bereft;</l>
+                  <l>My Claws are hard and ſharp as e're they were,</l>
+                  <l>As fit a Tyrant and his Rats to tear.</l>
+                  <pb n="14" facs="tcp:65502:7"/>
+                  <l>The Villains that ſupport a Tyrant Crown,</l>
+                  <l>This angry Tail will horridly ſweep down;</l>
+                  <l>Shake off your Fetters once, and you ſhall ſee,</l>
+                  <l>I'll once more ſave you from curſt Slavery.</l>
+               </lg>
+               <lg>
+                  <l>She ſaid, and away ſhe gallop'd amain,</l>
+                  <l>But in hopes they their Senſe would recover again;</l>
+                  <l>For a Doctor will never the Fatigue endure,</l>
+                  <l>To heal ſuch dull Blockheads, that don't love the Cure.</l>
+               </lg>
+            </div>
+            <div n="3" type="poetic_fable">
+               <head>FAB. III. The <hi>Frogs</hi> Concern.</head>
+               <lg>
+                  <l>A Generous Race of croaking <hi>Frogs,</hi>
+                  </l>
+                  <l>Which lay entrench't betwixt two Bogs,</l>
+                  <pb n="15" facs="tcp:65502:7"/>
+                  <l>Who as the morning Sun did ſhine,</l>
+                  <l>Daily encreaſt their ſtock divine;</l>
+                  <l>Juſt as the Solar Influence burn'd,</l>
+                  <l>Prolifick ſpawn to Life was turn'd,</l>
+                  <l>Until the young ones had at length</l>
+                  <l>An equal Vigor, equal Strength.</l>
+                  <l>So numerous at length they prove,</l>
+                  <l>They ſupplicate to mighty <hi>Jove;</hi>
+                  </l>
+                  <l>A King and Governor they crave,</l>
+                  <l>As other Beaſts and Inſects have:</l>
+                  <l>But <hi>Jove</hi> allow'd all Mortal Elves,</l>
+                  <l>To chuſe a Monarch for themſelves.</l>
+                  <l>The Croaking Elders now conſult</l>
+                  <l>About a King, and the Reſult</l>
+                  <l>Was, that a neighb'ring Log ſhould be</l>
+                  <l>Executor of Monarchy.</l>
+                  <l>About the Log their Heads they raiſe,</l>
+                  <l>In ſounds uncouth they croak his Praiſe:</l>
+                  <pb n="16" facs="tcp:65502:8"/>
+                  <l>At length ſome crawl upon his Top,</l>
+                  <l>And frisk about, and croak and hop:</l>
+                  <l>Says one <hi>Frog,</hi> Here's fine buſineſs done,</l>
+                  <l>Was e're a King thus trampl'd one?</l>
+                  <l>'Troth, ſays another antient <hi>Frog,</hi>
+                  </l>
+                  <l>We'll ne'r be govern'd by a Log;</l>
+                  <l>The heat at length ſo far aroſe,</l>
+                  <l>They did the Loggerhead depoſe.</l>
+                  <l>To new Election they proceed,</l>
+                  <l>And to their Hearts content ſucceed;</l>
+                  <l>A neighbouring Stork at length they choſe,</l>
+                  <l>Which ſhou'd their Heats and Feuds compoſe:</l>
+                  <l>He took upon him the Command</l>
+                  <l>Of all the People in <hi>Frogland;</hi>
+                  </l>
+                  <l>But he as t'other 'fore had done,</l>
+                  <l>Made it an Arbitrary Throne;</l>
+                  <l>Up from the Mud the <hi>Frogs</hi> would pick,</l>
+                  <l>And ſqueeze their Corps within his Beak.</l>
+                  <pb n="17" facs="tcp:65502:8"/>
+                  <l>One <hi>Frog</hi> much wiſer than the reſt,</l>
+                  <l>To thoſe about him thus addreſt:</l>
+                  <l>Good Friends, this is confounded work;</l>
+                  <l>Shall we be govern'd by a Stork;</l>
+                  <l>To have our Bones in pieces torn,</l>
+                  <l>Our young ones eat juſt as they'r born?</l>
+                  <l>As if Kings only had a Power</l>
+                  <l>To ruin Subjects and devour;</l>
+                  <l>I think 'tis juſt to chuſe agen:</l>
+                  <l>The brood of <hi>Frogs</hi> all croak'd, <hi>Amen.</hi>
+                  </l>
+                  <l>The next they choſe was a dull Aſs,</l>
+                  <l>Which prov'd as bad as t'other was;</l>
+                  <l>For tho he was not ſo malicious,</l>
+                  <l>His folly made him as pernicious;</l>
+                  <l>Stumbling on Empire, oft he ſtood</l>
+                  <l>Upon his Subjects choak't in Mud:</l>
+                  <l>Whole beds of Spawn he did deſtroy,</l>
+                  <l>At every flounce did <hi>Frogs</hi> annoy.</l>
+                  <pb n="18" facs="tcp:65502:9"/>
+                  <l>The Devil's in't, ſaid one, for we</l>
+                  <l>In chuſing Kings ſtill wretched be.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Thus often we have choſe a King,</hi>
+                  </l>
+                  <l>
+                     <hi>And ſtill have found it the ſame thing.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="4" type="poetic_fable">
+               <head>FAB. IV. The <hi>Bees</hi> and the <hi>Hornet.</hi>
+               </head>
+               <l>A Hive of <hi>Bees</hi> had plunder'd ev'ry Field,</l>
+               <l>And ev'ry Herb dos Wax or Hony yield:</l>
+               <l>Large Troops of winged force they daily arm,</l>
+               <l>Large as the Flocks that about <hi>Hybla</hi> ſwarm;</l>
+               <l>From diſtant Fields did ev'ry Evening come,</l>
+               <l>Loaden with Sweets and wholſom Hony home:</l>
+               <l>Bleſt with abundant Wealth the Swarm dos thrive</l>
+               <l>Beneath the Bleſſings of a well ſtock't Hive.</l>
+               <pb n="19" facs="tcp:65502:9"/>
+               <l>But Wealth and Luxury together go,</l>
+               <l>And <hi>Bees,</hi> when rich, do vain and wanton grow;</l>
+               <l>Pamper'd with Food, they loath their happy Fate,</l>
+               <l>And Changlings like, attempt to change their State.</l>
+               <l>Large Herds they ſaw, as they abroad did rove,</l>
+               <l>Govern'd by Monarchs, by the leave of <hi>Jove.</hi>
+               </l>
+               <l>They <hi>Jupiter</hi> invoke, that alſo he</l>
+               <l>Would pleaſe to favour them with Monarchy.</l>
+               <l>
+                  <hi>Jove</hi> from <hi>Olympus</hi> nodding, gave conſent,</l>
+               <l>And ſtrait the <hi>Bees</hi> to an Election went.</l>
+               <l>An o'regrown <hi>Hornet</hi> in an Oaken-Tree,</l>
+               <l>Was what they choſe, and muſt their Sov'raign be:</l>
+               <l>For Bulk and Valor was elected King,</l>
+               <l>The greateſt Warrior ever drew a Sting.</l>
+               <l>His Paunch more Hony ſtill did bear away</l>
+               <l>Then ten ſtrong <hi>Bees</hi> could gather in a Day.</l>
+               <l>But what was worſe, he often wou'd invite</l>
+               <l>His Family to dine, and ſup at Night:</l>
+               <pb n="20" facs="tcp:65502:10"/>
+               <l>His num'rous Fav'rites did devour more,</l>
+               <l>Then his ſmall Regions ever ſaw before;</l>
+               <l>His lazy Drones did more Proviſion ſpoil,</l>
+               <l>Than is the product of a Summers toil.</l>
+               <l>The <hi>Bees</hi> thus rob'd of all their Hony, grieve;</l>
+               <l>'Tis Winter too, they know not how to live.</l>
+               <l>Their Monarch goes to rob another Swarm,</l>
+               <l>And there remain till Summer's heat ſhall warm.</l>
+               <l>The <hi>Bees</hi> bereav'd of all their Nouriſhment,</l>
+               <l>Their Wax decay'd, and all their Hony ſpent;</l>
+               <l>Around their Hive their Obſequies they ſing,</l>
+               <l>Lament their Fortune, and they curſe their King.</l>
+            </div>
+            <div n="5" type="poetic_fable">
+               <pb n="21" facs="tcp:65502:10"/>
+               <head>FAB. V. The <hi>Lion</hi> and <hi>Fox.</hi>
+               </head>
+               <lg>
+                  <l>A Youthful <hi>Lion</hi> in the Wood,</l>
+                  <l>Of Bulk and Nature ſtrong;</l>
+                  <l>Still us'd to rav'ning and to blood,</l>
+                  <l>And came to Empire young:</l>
+               </lg>
+               <lg>
+                  <l>He too, as other Monarchs uſe,</l>
+                  <l>New Methods did purſue:</l>
+                  <l>His Father's Fav'rites did refuſe,</l>
+                  <l>And choſe a ſet of new.</l>
+               </lg>
+               <lg>
+                  <l>He having lov'd, and us'd to gore;</l>
+                  <l>An arbitrary ſway,</l>
+                  <l>A baſe, a wild Deſpotick Pow'r</l>
+                  <l>His Subjects muſt obey.</l>
+               </lg>
+               <pb n="22" facs="tcp:65502:11"/>
+               <lg>
+                  <l>But want of Brains do ſtill attend</l>
+                  <l>Unlimited Command:</l>
+                  <l>And therefore he would have ſome Friend</l>
+                  <l>Might Buſineſs underſtand.</l>
+               </lg>
+               <lg>
+                  <l>There was a cunning <hi>Fox</hi> liv'd near,</l>
+                  <l>For many years had kill'd</l>
+                  <l>The neighb'ring Lambs and Poultry there,</l>
+                  <l>With Bones his Kennel fill'd.</l>
+               </lg>
+               <lg>
+                  <l>He ſummon'd <hi>Reynard</hi> to appear,</l>
+                  <l>Next Night, at Council Board.</l>
+                  <l>Which <hi>Reynard</hi> did, and when was there,</l>
+                  <l>Look'd grave as any Lord.</l>
+               </lg>
+               <lg>
+                  <l>The <hi>Lion</hi> told him, he muſt be</l>
+                  <l>The chief Support of State.</l>
+                  <l>At which kind <hi>Reynard</hi> bow'd his Knee,</l>
+                  <l>And wiſh'd him better Fate.</l>
+               </lg>
+               <pb n="23" facs="tcp:65502:11"/>
+               <lg>
+                  <l>O, ſays the <hi>Lion,</hi> thou art skill'd</l>
+                  <l>In Arbitrary Sway:</l>
+                  <l>Thou many Beaſts and Fowls haſt kill'd,</l>
+                  <l>To govern know'ſt the way.</l>
+               </lg>
+               <lg>
+                  <l>Ask, and I'll give Thee any thing,</l>
+                  <l>Is in my Pow'r to give:</l>
+                  <l>Thou ſhalt be next unto the King</l>
+                  <l>As long as I do live.</l>
+               </lg>
+               <lg>
+                  <l>Quoth <hi>Reynard,</hi> make me then the Prieſt,</l>
+                  <l>I'll make all Beaſts your Slaves:</l>
+                  <l>The Body You, I Soul at leaſt,</l>
+                  <l>We'll tyrannize by halves.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Thus Fate did Men to thraldom bring,</hi>
+                  </l>
+                  <l>
+                     <hi>Oppreſt juſt like a Beaſt;</hi>
+                  </l>
+                  <l>
+                     <hi>Rod, ſpur'd, and whip'd by ſuch a King,</hi>
+                  </l>
+                  <l>
+                     <hi>And eke ſo lewd a Prieſt.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="6" type="poetic_fable">
+               <pb n="24" facs="tcp:65502:12"/>
+               <head>FAB. VI. The <hi>Weeſil, Rats</hi> and <hi>Mice.</hi>
+               </head>
+               <lg>
+                  <l>A Mighty <hi>Weeſil</hi> of Renown,</l>
+                  <l>Well verſt in things of State,</l>
+                  <l>Was choſen King all o're the Town,</l>
+                  <l>Of all the <hi>Mice</hi> and <hi>Rats.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>His Coronation Day was come,</l>
+                  <l>And all the Grandees meet</l>
+                  <l>The <hi>Weeſil</hi> in a gaudy Room,</l>
+                  <l>And bow beneath his Feet.</l>
+               </lg>
+               <lg>
+                  <l>His Chair of State was Rind of Cheeſe,</l>
+                  <l>And o're his Royal Head</l>
+                  <l>Some Bacon ſwerd in goodly guiſe,</l>
+                  <l>Like Canopy was ſpread.</l>
+               </lg>
+               <pb n="17" facs="tcp:65502:12"/>
+               <lg>
+                  <l>At length he walks and ſtruts about,</l>
+                  <l>Like any Lord or Duke;</l>
+                  <l>Sometimes he do's one Subject flout,</l>
+                  <l>And ſometimes one rebuke.</l>
+               </lg>
+               <lg>
+                  <l>He calls an aged <hi>Rat</hi> aſide,</l>
+                  <l>And ask'd him his advice,</l>
+                  <l>Whether a Project mayn't be try'd</l>
+                  <l>To eat up all the <hi>Mice.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Ay quoth the <hi>Rat,</hi> your Majeſty</l>
+                  <l>May be well ſatisfy'd,</l>
+                  <l>
+                     <hi>Mice</hi> haters are of Monarchy,</l>
+                  <l>And Regal State deride.</l>
+               </lg>
+               <lg>
+                  <l>The <hi>Rats</hi> and <hi>Weeſils</hi> now devour</l>
+                  <l>The <hi>Mice</hi> in piteous ſort,</l>
+                  <l>They dye the Cellers with their Gore,</l>
+                  <l>And with their Bones they ſport.</l>
+               </lg>
+               <pb n="18" facs="tcp:65502:13"/>
+               <lg>
+                  <l>At length the <hi>Mice</hi> are all deſtroy'd,</l>
+                  <l>The <hi>Weeſils</hi> and the <hi>Rats</hi>
+                  </l>
+                  <l>Would other Food find out abroad,</l>
+                  <l>But that they fear'd the Cats.</l>
+               </lg>
+               <lg>
+                  <l>The <hi>Weeſils</hi> now together plot,</l>
+                  <l>How they the <hi>Rats</hi> may eat;</l>
+                  <l>Proviſion muſt be daily got,</l>
+                  <l>Kings muſt have ſumptuous Meat.</l>
+               </lg>
+               <lg>
+                  <l>The <hi>Rats</hi> now all do go to pot:</l>
+                  <l>Some bak'd, ſome boil'd, ſome roaſted;</l>
+                  <l>'Tis hop'd they had not then forgot</l>
+                  <l>How they the <hi>Mice</hi> accoſted.</l>
+               </lg>
+               <pb n="19" facs="tcp:65502:13"/>
+               <lg>
+                  <l>
+                     <hi>Thus ſome Men oft by Tyrant Power,</hi>
+                  </l>
+                  <l>
+                     <hi>Their Kindred, Subject-Slaves devour,</hi>
+                  </l>
+                  <l>
+                     <hi>Do all the Villanies are done</hi>
+                  </l>
+                  <l>
+                     <hi>To prop a beaſtly Tyrant Throne;</hi>
+                  </l>
+                  <l>
+                     <hi>Tho others Blood the Tyrant fill'd,</hi>
+                  </l>
+                  <l>
+                     <hi>They muſt at length to's Fury yield;</hi>
+                  </l>
+                  <l>
+                     <hi>Nought ſtops a Tyrants Courſe but Decollation,</hi>
+                  </l>
+                  <l>
+                     <hi>Or elſe a modern Abdication.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="7" type="poetic_fable">
+               <pb n="20" facs="tcp:65502:14"/>
+               <head>FAB. VII. <hi>Lubberland.</hi>
+               </head>
+               <l>A Land there is, as Maps do tell,</l>
+               <l>(Tho they deſcribe it not right well)</l>
+               <l>Nor near the <hi>Hot</hi> nor <hi>Frigid Zone,</hi>
+               </l>
+               <l>But Latitude of fifty one;</l>
+               <l>In Natures plenty do's abound,</l>
+               <l>With Fruits and Flocks is amply crown'd:</l>
+               <l>The Natives never are content</l>
+               <l>But with tyrannick Government;</l>
+               <l>They Men reſemble by their Faces,</l>
+               <l>But by their Backs reſemble Aſſes.</l>
+               <l>For each is born with a great pack,</l>
+               <l>A warlike Saddle on his Back,</l>
+               <pb n="21" facs="tcp:65502:14"/>
+               <l>Which do's adorn the parts are upper,</l>
+               <l>On nether parts they wear a Crupper.</l>
+               <l>Their Kings, as 'tis decreed by <hi>Jove,</hi>
+               </l>
+               <l>Do always jump down from above:</l>
+               <l>Arm'd <hi>Cap-a-pee</hi> with Boots and Spurs,</l>
+               <l>Juſt fit to mount ſuch ſervile Curs:</l>
+               <l>With Hunting-Whips they daily maul 'em,</l>
+               <l>And with long rowel'd Spurs do gall 'em.</l>
+               <l>He only is the great <hi>Bravado,</hi>
+               </l>
+               <l>Has moſt the Regal <hi>Baſtinado.</hi>
+               </l>
+               <l>They leap and jump, and frisk and skip,</l>
+               <l>And ſing the Praiſes of the Whip:</l>
+               <l>They bear the Laſh without once bogging,</l>
+               <l>Extol the Royal Art of flogging.</l>
+               <l>With Blanket-Coat and wooden-Shoes,</l>
+               <l>The Man the Camel ſcarce outdoes.</l>
+               <pb n="22" facs="tcp:65502:15"/>
+               <l>Whilſt Freemen feed on Dainties fine,</l>
+               <l>Theſe do on Bread and Garlick dine;</l>
+               <l>And if they ſpend a Soulx in Wine,</l>
+               <l>The Health drank round muſt always be,</l>
+               <l>Their Kings applauded Tyranny:</l>
+               <l>Still let 'em be curs'd Slaves for me.</l>
+            </div>
+            <div n="8" type="poetic_fable">
+               <pb n="23" facs="tcp:65502:15"/>
+               <head>FAB. VIII. The <hi>Hawk</hi> and <hi>Birds.</hi>
+               </head>
+               <lg n="1">
+                  <head>I.</head>
+                  <l>A <hi>Hawk,</hi> that of Yore,</l>
+                  <l>Had long welter'd in Gore,</l>
+                  <l>And many a <hi>Sparrow</hi> had kill'd;</l>
+                  <l>By the <hi>Birds</hi> he was told,</l>
+                  <l>Now he was grown old,</l>
+                  <l>He his number of Sins had fulfill'd.</l>
+               </lg>
+               <lg n="2">
+                  <head>II.</head>
+                  <l>No ſaid the old <hi>Hawk,</hi>
+                  </l>
+                  <l>My Actions to balk</l>
+                  <l>If you ſhall but once thus <hi>combine,</hi>
+                  </l>
+                  <l>The Gods will avenge,</l>
+                  <l>My Cauſe will revenge,</l>
+                  <l>I may murder ye <hi>Jure Divino.</hi>
+                  </l>
+               </lg>
+               <pb n="24" facs="tcp:65502:16"/>
+               <lg n="3">
+                  <head>III.</head>
+                  <l>The Gods, ſaid the <hi>Birds,</hi>
+                  </l>
+                  <l>We'll not take their words;</l>
+                  <l>If they've'gin you an Abſolute Power,</l>
+                  <l>They've'gin us a part,</l>
+                  <l>Is not worth a Fart,</l>
+                  <l>While you have a Right to devour.</l>
+               </lg>
+               <lg n="4">
+                  <head>IV.</head>
+                  <l>The <hi>Birds</hi> all agreed,</l>
+                  <l>And thus 'tvvas decreed,</l>
+                  <l>That Slaves they no longer would be;</l>
+                  <l>They throttl'd their King,</l>
+                  <l>Then ſvveetly did ſing</l>
+                  <l>The Praiſes of free Liberty.</l>
+               </lg>
+            </div>
+            <div n="9" type="poetic_fable">
+               <pb n="25" facs="tcp:65502:16"/>
+               <head>FAB. IX. The <hi>Owl</hi> and the <hi>Mice.</hi>
+               </head>
+               <l>THE harmleſs <hi>Mice</hi> by Tyranny oppreſt,</l>
+               <l>And by the <hi>Owls</hi> vaſt inſolence diſtreſt,</l>
+               <l>Came to a conſult, where they did debate</l>
+               <l>Of Means to ſave their yet declining State.</l>
+               <l>Up ſtands a <hi>Mouſe</hi> of generous noble Blood,</l>
+               <l>Free from the Fears of the more ſlaviſh Brood;</l>
+               <l>Says he, my Project, Sirs I hope will take,</l>
+               <l>We'll tie a Bell about the <hi>Owls</hi> damn'd Neck:</l>
+               <l>Thus when the Tyrants Bell do's ever toll</l>
+               <l>Each <hi>Mouſe</hi> ſecures himſelf within his hole.</l>
+               <l>At which a <hi>Mouſe</hi> for Courage fam'd, aroſe,</l>
+               <l>And did as follows to the reſt propoſe.</l>
+               <l>Brethren, ſays he, this enterprize is vain,</l>
+               <l>There is no end of this Tyrannick Reign,</l>
+               <pb n="26" facs="tcp:65502:17"/>
+               <l>As long as <hi>Owl,</hi> or any of his kind,</l>
+               <l>Shall here Dominion and an Empire find:</l>
+               <l>You may hang Bells about his Neck, but then</l>
+               <l>He pecks it off, and turns an <hi>Owl</hi> agen.</l>
+               <l>Lets try for once, ſince our Condition's ſo,</l>
+               <l>What bold <hi>Micean</hi> Potentates can do.</l>
+               <l>The only way to guard our Empire well,</l>
+               <l>Is both to rid our ſelves of <hi>Owl</hi> and Bell.</l>
+               <l>Thus we our State and Freedom ſhall repair,</l>
+               <l>And live as free as our Fore-fathers were.</l>
+            </div>
+            <div n="10" type="poetic_fable">
+               <pb n="27" facs="tcp:65502:17"/>
+               <head>FAB. X. <hi>Neptune</hi> and the <hi>Fiſhes.</hi>
+               </head>
+               <l>
+                  <hi>NEptune</hi> the God of the Tempeſtuous Deep,</l>
+               <l>When's Brother <hi>Boreas</hi> huſh't the Storms aſleep;</l>
+               <l>Upon a Rock erected had his Throne,</l>
+               <l>His Chair of State was carv'd out of the Stone;</l>
+               <l>On either hand the lovely <hi>Mermaids</hi> ſate,</l>
+               <l>The glittering Pageants of the Monarchs State;</l>
+               <l>The golden Treſſes which their Heads adorn,</l>
+               <l>Dy'd with the yellow glittering of the Mo<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n.</l>
+               <l>He ſhook his Trident, when both far and near</l>
+               <l>His <hi>Guard du Corps</hi> of Tritons ſhook for fear;</l>
+               <l>One he commanded ſtrait to go and tell,</l>
+               <l>All Clans of Fiſh beneath the Surface dvvell,</l>
+               <pb n="28" facs="tcp:65502:18"/>
+               <l>That to his Court they preſently repair,</l>
+               <l>Away the <hi>Triton</hi> flounc'd as ſwift as Air,</l>
+               <l>The ſcaly Tribe's in endleſs numbers flock</l>
+               <l>And rendevouz before the Royal Rock;</l>
+               <l>
+                  <hi>Neptune</hi> in State unto the brink did go,</l>
+               <l>And vievv'd the num'rous Shoals of Fiſh below:</l>
+               <l>Then pointing to the <hi>Mermaids,</hi> thus he ſaid,</l>
+               <l>"See there the lovely work the Gods have made,</l>
+               <l>"By them and Nature deſtin'd for my own,</l>
+               <l>"The juſt Supporters of my vertuous Throne.</l>
+               <l>"My Pleaſure is, that every ſort of Fiſh,</l>
+               <l>"For them do every Day provide a Diſh,</l>
+               <l>"The beſt and wholeſom'ſt Fiſh of every ſort,</l>
+               <l>"And bring them every Day unto the Court.</l>
+               <l>Each Fiſh beneath the Surface dovvnvvard darts,</l>
+               <l>But glide along with very heavy Hearts;</l>
+               <l>In vain ſays one the heav'nly Sun do's burn,</l>
+               <l>Warm the vaſt Deep, and <hi>Spawn</hi> to <hi>Fiſhes</hi> turn:</l>
+               <pb n="29" facs="tcp:65502:18"/>
+               <l>The Gods its ſeems thus <hi>Neptune</hi> has empovver'd</l>
+               <l>And we are born only to be devour'd;</l>
+               <l>Our Off-ſpring ſtill muſt pay their Parents Scores</l>
+               <l>Made for a Tyrants Food, and Bawds &amp;'s Whores</l>
+               <l>When vaſt laſcivious Paunches ſpend always,</l>
+               <l>More than the num'rous Shoals of <hi>Fiſh</hi> can raiſe</l>
+               <l>No more ſaid he, by my conſent, we'll own</l>
+               <l>A Tyrants Empire, but abjure his Throne;</l>
+               <l>The watry Tribes the motion did approve,</l>
+               <l>And to his Station every one did move.</l>
+            </div>
+            <div n="11" type="poetic_fable">
+               <pb n="30" facs="tcp:65502:19"/>
+               <head>FAB. XI. The <hi>Aſylum.</hi>
+               </head>
+               <l>THE Princes once did all combine,</l>
+               <l>The Peoples Liberty to mine;</l>
+               <l>VVould make 'em right or wrong obey</l>
+               <l>An abſolute Deſpotick Svvay,</l>
+               <l>One Method, was to make us poor,</l>
+               <l>By loading Taxes more and more;</l>
+               <l>For when to Poverty Men fall,</l>
+               <l>They eaſily are brought to thrall:</l>
+               <l>And when their Spirit's ſunk and gone,</l>
+               <l>Tyrants may lay vaſt Burthens on.</l>
+               <l>This did in ſome, in all it cou'd</l>
+               <l>Not do: Some Men had better Blood,</l>
+               <pb n="31" facs="tcp:65502:19"/>
+               <l>And tho' they could not mend their Fate</l>
+               <l>They murmur'd at the Tyrants hate;</l>
+               <l>VVhich ſo incens'd the Tyrants Ire,</l>
+               <l>Some they condemn'd to rav'nous fire;</l>
+               <l>Some were to ſlaviſh Gallies ſent,</l>
+               <l>Others in Fetters did lament.</l>
+               <l>Some Men were ſtrangl'd in their Beds,</l>
+               <l>Others were hang'd, ſome loſt their Heads;</l>
+               <l>Some whipt till bleeding Backs were kill'd,</l>
+               <l>The Lands with Tyranny were fill'd,</l>
+               <l>But thoſe whom better luck and hap</l>
+               <l>Did favour with a wiſh'd eſcape,</l>
+               <l>A City on <hi>Batavian</hi> Shoar,</l>
+               <l>Did ſhelter from the Ills before;</l>
+               <l>VVhere native Liberty do's thrive,</l>
+               <l>And no curſt Tyranny can live.</l>
+               <l>Long live great City, Favourite of Heav'n,</l>
+               <l>And never want thoſe Bleſſings thou haſt giv'n.</l>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
